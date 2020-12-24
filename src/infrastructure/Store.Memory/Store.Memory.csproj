@@ -1,8 +1,7 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
-    <RootNamespace>Store</RootNamespace>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
@@ -11,6 +10,11 @@
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
     <OutputPath>D:\Пользователи\Лысов\Документы\Программирование\Store\bin\Release\</OutputPath>
+    <WarningLevel>0</WarningLevel>
   </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\domain\store\Store.csproj" />
+  </ItemGroup>
 
 </Project>

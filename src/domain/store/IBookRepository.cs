@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace store
+namespace Store
 {
-	interface IBookRepository
+	public interface IBookRepository
 	{
 		Book[] GetAllByTitle(string titlePart);
 	}

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace store
+namespace Store
 {
 	public class Book
 	{	
