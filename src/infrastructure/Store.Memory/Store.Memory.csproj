@@ -5,11 +5,11 @@
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <OutputPath>D:\Пользователи\Лысов\Документы\Программирование\Store\bin\Debug\</OutputPath>
+    <OutputPath></OutputPath>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
-    <OutputPath>D:\Пользователи\Лысов\Документы\Программирование\Store\bin\Release\</OutputPath>
+    <OutputPath></OutputPath>
     <WarningLevel>0</WarningLevel>
   </PropertyGroup>
 
